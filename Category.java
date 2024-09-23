@@ -12,7 +12,7 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int categoryId;
     private String categoryTitle;
-    private String categoryDescription;
+    private String categoryDescription; 
     
     @OneToMany(mappedBy = "category")
     private List<Product> products=new ArrayList<>();
