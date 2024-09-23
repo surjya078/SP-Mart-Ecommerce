@@ -27,7 +27,7 @@ public class LoginServlet extends HttpServlet {
 			/* TODO output your page here. You may use following sample code. */
 
 			String email=request.getParameter("email");
-			String password=request.getParameter("password");
+			String password=request.getParameter("password"); 
 			
 			//validation
 			
