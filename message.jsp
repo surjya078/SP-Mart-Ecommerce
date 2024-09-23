@@ -12,7 +12,7 @@ if (message != null) {
 		<use xlink:href="#check-circle-fill" /></svg>
 	<div><%= message%></div>
 </div>
-
+ 
 <%
 session.removeAttribute("message");
 }
