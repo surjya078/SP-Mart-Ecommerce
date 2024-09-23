@@ -14,7 +14,7 @@
 <title>Home Page</title>
 
 <%@include file="components/common_css_js.jsp"%>
-
+ 
 <style type="text/css">
 .list-group-item.active {
 	background-color: #004d7a;
