@@ -25,7 +25,7 @@ public class UserDao {
 			org.hibernate.query.Query q = session.createQuery(query);
 			q.setParameter("e",email);
 			q.setParameter("p",password);
-			
+			 
 			user=(User) q.uniqueResult();
 			
 			
